@@ -1,0 +1,23 @@
+.aboutmeleft{
+  float:left;
+	width:60%;
+	border-right:1px solid #000;
+  padding-right:1%;
+  border: 1px solid #5D6063;
+	box-sizing: border-box;
+}
+.aboutmeleft p, h1{
+  text-align: center;
+
+}
+
+.aboutmeright{
+  
+  float:right;
+	width:40%;
+	color:#fff;
+  padding:15px;
+  border: 1px solid #5D6063;
+  test-align:center;
+	box-sizing: border-box;
+}

@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  background: rgb(255,255,255);
+  color: #333333;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444444;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+
+  
+}
+
+.image {
+  position: relative;
+  top: 20px;
+  left: 50px;
+  width: 75%;
+  height: auto;
+}
+
+.image2 {
+  position: relative;
+  top: 50px;
+  left: 70px;
+  width: 75%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 420px;
+  width: 100%;
+  background-color:#efefef;
+  opacity: 0;
+  transition: .5s ease;
+  
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: rgb(2, 2, 2);
+  font-size: 20px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  width: 80%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  
+}
+
+.text2 {
+  color: rgb(2, 2, 2);
+  font-size: 20px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  width: 80%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  
+}
+
+.text3 {
+  color: rgb(2, 2, 2);
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  
+}
+
+
+
+.header {
+  font-size: large;
+  display: flex;
+  justify-content: space-between;
+
+  height: 150px;
+  width: 100%;
+  padding: 50px;
+  background: #D6E9FE;
+}
+  a:link{
+    color: rgb(79, 127, 172)
+  }
+  a:visited {
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .menu {
+      margin-top: 15px;
+  }
+    
+  .menu > li {
+    display: inline;
+    margin-right: 50px;
+  }
+
+  .menu > li:last-of-type {
+    margin-right: 0;
+  }
+
+  .dropdown {
+    position: relative;
+  }
+
+  .dropdown > span {
+    z-index: 2;
+    position: relative;  /* This is important! */
+    cursor: pointer;
+  }
+
+  .features-menu {
+  /* ... */
+    z-index: 1;
+  }
+
+  .dropdown:hover .features-menu {
+    display: flex;
+    flex-direction: column;
+    background: #B2D6FF;
+    border-radius: 5px;
+    padding-top: 60px;  
+    z-index: 1;
+    position: absolute;      /* Add these */
+    top: -25px;
+    left: -30px;
+  }
+  .features-menu {                    /* Add this as a new rule */
+    display: none;
+  }
+
+  .features-menu li {
+    list-style: none;
+    border-bottom: 1px solid #FFF;
+
+    padding: 0 40px 10px 20px;
+    margin: 10px;
+  }
+
+  .features-menu li:last-of-type {
+    border-bottom: none;
+  }  
+
+.sidebar {
+  height: 300px;
+  background-color: #F09A9D;    /* Red */
+}
+
+.aboutmeleft{
+  height: 400px;
+  float:left;
+  width:60%;
+  padding-top: 15px;
+  padding-right: 1%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-right:1px solid #000;
+  background-color: rgb(255,255,255);
+	box-sizing: border-box;
+}
+.aboutmeleft p, h1{
+  text-align: center;
+
+}
+
+.aboutmeright{
+  height: 400px;
+  float:right;
+  width:40%;
+  background-color:rgb(255,255,255);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 60px;
+  text-align:center;
+	box-sizing: border-box;
+}
+
+.WhatIDoBlock{
+  float:left;
+  display: block;
+  width:33.3%;
+  font-family: Helvetica;
+  height:500px;
+  margin-top: 50px;
+  border-radius: 25px;
+  background-color:#efefef;
+  border: 2px white solid;
+  padding:5px;
+  box-sizing: border-box;
+}
+
+.WhatIDoBlock h1{
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.military {
+  clear: both; 
+  height: 700px;
+  background-color: rgb(255, 255, 255);  
+  padding: 50px; 
+  border: 1px solid #5D6063;
+  
+}
+
+.military p {
+  text-align: center;
+
+}
+
+iframe{
+  position: relative;
+  left: 23%;
+  top: 120%;
+  width: 800px;
+  height: 400px;
+  padding-top:20px;
+  margin: 0 auto;
+  border: 0;
+}
+
+.contact {
+  clear: both;
+  height: 100px;
+  display: block;
+  padding: 25px;
+  background-color: rgb(255, 255, 255);    
+  border: 1px solid #5D6063;
+  text-align: center;
+  
+  
+}
+
+.fa, .fa-linkedin, .fa-facebook, .fa-twitter, .fa-instagram, .fa-github {
+  padding-right: 15px;
+}
+
+.footer {
+  height: 200px;
+  margin:0, auto;
+  background-color: #D6E9FE;    /* Light blue */
+}
+
+
+
+
