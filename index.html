@@ -1,7 +1,120 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+<html lang='en'>
+  <head>
+    <title>About Me!</title>
+    <meta charset='UTF-8'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='menu.css' rel='stylesheet'/>
+ 
+  </head>
+  <body>
+      <div class='header'>
+          <h1>All About Me!</h1>
+          <ul class='menu'>
+            <li class='dropdown'><span>Navigation &#9662;</span>
+              <ul class='features-menu'>           <!-- Start of submenu -->
+                <li><a href='#early'>Life</a></li>
+                <li><a href='#military'>Military</a></li>
+                <li><a href='#career'>Career</a></li>             
+                <li><a href='#family'>Family</a></li>
+                <li><a href='#contact'>Contact</a></li>
+              </ul>                                <!-- End of submenu -->
+          </ul>
+      </div>
+      <div class='page'>
+        
+        <div class='aboutmeleft'>
+          <h1>Hello, Welcome to a page all about me!</h1>
+          <br><p> My name is David and I created this page as a pre-req to a coding bootcamp called <a href='https://vetswhocode.io/about'>#VETSWHOCODE</a>.  Currently, I am a Senior Recruiting Consultant for 3rd party agency that works closely with various Tech Companies in the San Francisco Bay Area. <p>
+            
+          <br><p> I am still in the Army Reserves but was Active Duty Army for about 10 Years prior.  During that time, I served as an Airborne Infantryman and a Recruiter.  I deployed to Afghanistan and reached the rank of Staff Sergeant.</p>
+              
+          <br><p> I have always had an interest in Computers and Technology and find ways to <a href='https://automatetheboringstuff.com/'>“Automate The Boring Stuff”</a> anyway that I can.  When I started recruiting for Developers and Engineers, I decided it would be in my best interest to learn a little about what I was recruiting for.  I read an article called <a href='https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/'>"What is Code" by: Paul Ford</a> and proceeded to start my coding journey.</p>
+             
+          <br><p> I started teaching myself Python by watching tutorials and YouTube videos and decided to create a GUI using Python TKinter.  I adapted this program to collect and analyze recruiting metrics and candidate data.  I would input this data and analyze t with Pandas then export to excel, PDF or HTML to create reports to present to clients and senior leadership.  After this was “completed: I pivoted to converting it to a Web Web App utilizing Python Flask, HTML, CSS and JavaScript- this is still a work in progress.</p>
+              
+          <br><p> During this time, I decided I wanted to pursue a career in coding and started looking into more formal training to get started. This is my introductory story.</p> 
+          
+          <br><p> Hope you enjoy it. </p>
+              
+        </div>
+
+        <div class='aboutmeright'>
+            <script>
+              function hover(element) {
+              element.setAttribute('src', "C:/Users/Owner/Desktop/Web Form/Enviornments/project1_env/Vetswhocode/David-military.jpg", alt='Military Photo');
+              }
+
+              function unhover(element) {
+              element.setAttribute('src', "C:/Users/Owner/Desktop/Web Form/Enviornments/project1_env/Vetswhocode/David.jpg", alt='Civilian Photo  ');
+              }
+            </script>
+            <img id="my-img" src="C:/Users/Owner/Desktop/Web Form/Enviornments/project1_env/Vetswhocode/David.jpg" onmouseover="hover(this);" onmouseout="unhover(this);" />
+            <p> Hover to Change </p>
+        </div>
+        <div class="WhatIDoBlock">
+            <a name="early"></a>
+            <h1>Early Life</h1>
+            <a name="whatIDo"></a>
+            <div class="container">
+                <img src="C:/Users/Owner/Desktop/Web Form/Enviornments/project1_env/Vetswhocode/ATHLETICS2.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                  <div class="text">
+                      <p> Originally from Bronx, NY, I grew up in South Florida.  After graduation I attended the State University of New York at Albany where I studied Business Administration and played Division-1 Football.   After college I returned home to Florida and worked at various sales jobs until I joined the Army and was sent to Ft. Benning, GA for Basic Training.</p>
+                  </div>
+                </div>
+            </div>   
+        </div>
+
+        <div class="WhatIDoBlock">
+            <a name="family"></a>
+            <h1>Family</h1>
+            <div class="container">
+                <img src="C:/Users/Owner/Desktop/Web Form/Enviornments/project1_env/Vetswhocode/family2.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                  <div class="text2">
+                      <p> I moved to Reno 4 years ago and spend my free time with my wife- Amanda, 3 children- Ari, Asher and Mia, and my 2 English Bull Terriers- Link and Nubie.  Now that the Army is done we are lookiong to move in the next year or so.</p>
+                  </div>
+                </div>
+            </div> 
+            
+        </div>
+
+        <div class="WhatIDoBlock">
+            <a name="career"></a>
+            <h1>Career</h1>
+            <div class="container">
+                <img src="C:/Users/Owner/Desktop/Web Form/Enviornments/project1_env/Vetswhocode/inkwell.png" alt="Avatar" class="image2">
+                <div class="overlay">
+                  <div class="text3">
+                      <p> After transitioning out of the Army I signed on with Talent Acquisition department at Panasonic Energy of North America where II helped staff the Largest Manufacturing Facility in the world- The Tesla Gigafactory in Northern Nevada. Throughout multiple “Ramp-Up” and “Cool-Down” periods, my Talent Acquisition Skills, Military Experience and people first attitude helped Panasonic reach their personnel goals of over 1,500 new employees.  After Panasonic I pursued a personal venture building a recruiting consulting company which was sold and I took my current role with Job Mobz.</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <div class='military'>
+            <a name="military"></a>
+            <h1>Military</h1>
+            <p>As an Army Veteran with 10 years of Service, I have earned numerous awards and accolades for my actions while leading multiple Teams, Squads, and Platoons in combat operations throughout the Middle East and South-West Asia.  On my first deployment to Afghanistan my small outpost was attacked by 200+ insurgents on the 4th of July 2009.  The military channel made a documentary about it called Attack on the 4th of July.  You can watch it below.</p>
+            <iframe src="https://www.youtube.com/embed/RDLOFgwUwGo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>          
+        </div>
+
+        <div class='contact'>
+            <h2>Lets Connect on Social Media</h2>
+            <a name="contact"></a>
+            <a href='https://www.linkedin.com/in/davidfantell/'><i class= "fa fa-linkedin-square" style="font-size:36px"></i></a>
+            <a href='https://www.facebook.com/david.fantell'><i class="fa fa-facebook-square" style="font-size:36px"></i></a>
+            <a href='https://twitter.com/Dfantell22'><i class="fa fa-twitter-square" style="font-size:36px"></i></a>
+            <a href='https://www.instagram.com/dfantell_loan_officer/'><i class="fa fa-instagram" style="font-size:36px"></i></a>
+            <a href='https://github.com/DFantell'><i class="fa fa-github-alt" style="font-size:36px"></i></a>
+            <a name="contact"></a>
+          </div>
+
+      </div> 
+  </body>
+  
 </html>
