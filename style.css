@@ -283,8 +283,10 @@ iframe{
     .WhatIDoBlock,
     .military,
     .contact{
-      margin-left: auto;
-      margin-right: auto;
+      width: 400px ;
+    }
+    iframe{
+      width: 50%;
     }
 }
 
@@ -296,10 +298,13 @@ iframe{
   .WhatIDoBlock,
   .military,
   .contact{
-    margin-left: auto;
-    margin-right: auto;
+    width: 960px ;
+  }
+  iframe{
+    width: 50%;
   }
 }
+
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
